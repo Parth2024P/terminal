@@ -109,5 +109,12 @@ int main()
                 printf("[background process");
             }
         }
+        // Tell the shell to ignore the Ctrl+C interrupt signal
+    signal(SIGINT, SIG_IGN); 
+    
+    // Tell the shell to run reap_zombies() whenever a child dies
+    signal(SIGCHLD, reap_zombies);
+    // ------------------------
+
     }
 }
