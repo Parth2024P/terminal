@@ -26,5 +26,5 @@ This shell is not a wrapper; it executes system binaries natively using a custom
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/yourusername/nano-shell.git](https://github.com/yourusername/nano-shell.git)
+   git clone [https://github.com/Parth2024P/nano-shell.git](https://github.com/Parth2024P/nano-shell.git)
    cd nano-shell
